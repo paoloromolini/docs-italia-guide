@@ -3,6 +3,8 @@ Guida a Docs Italia
 ###################
 
 Guida alla pubblicazione dei documenti della Pubblica Amministrazione su `Docs Italia <http://docs.italia/it>`_.
+Titolo: {{ docsitalia_data.documents.title }}
+Tags: {% for tag in docsitalia_data.documents.tags %}{{ tag }}{% endfor %}
 
 .. toctree::
    :maxdepth: 2
